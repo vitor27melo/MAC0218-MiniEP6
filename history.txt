@@ -1,0 +1,3 @@
+docker image build . -t caddy-ep6:2.6.4-alpine
+
+docker container run --name caddy -p 1100:80 -v C:/Users/vitor/OneDrive/Documentos/Faculdade/MAC0218-TecProg2/MiniEP6/MAC0218-MiniEP6/pages:/usr/src/pages -d caddy-ep6:2.6.4-alpine
